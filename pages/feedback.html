@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Znailine</title>
+	<link rel="stylesheet" type="text/css" href="../css/feedbackStyle.css" >
+    <link rel="icon" type="image/x-icon" href="../img/znailine.ico">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/handlebars-v4.1.2.js"></script>
+</head>
+<body>
+    <header>
+        <div id="icon"></div>
+        <a href="../index.html"><div>Главная</div></a>
+        <a href="courses.html"><div>Курсы</div></a>
+        <a href="test.html"><div>Определить свой уровень знаний</div></a>
+        <a href="job.html"><div>Устроиться на работу</div></a>
+        <a href="feedback.html"><div>Отзывы</div></a>
+        <a href="account.html"><div>Аккаунт</div></a>
+    </header>
+    <main id="main">
+        <div id="yourFB">
+            <img src="../img/avatarAnton.jpg" id="yourAvatar">
+            <h2 id="yourName">Антонов Антон Антонович</h2>
+            <textarea id="yourText"></textarea>
+            <button id="sendBtn">Отправить</button>
+        </div>
+        <h1>Другие отзывы</h1>
+    </main>
+    <script src="../js/feedback.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+body{
+    background: #00364d;
+    background: linear-gradient(30deg, rgba(0, 54, 77, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(43, 25, 115, 1) 100%);
+    background-repeat:no-repeat;
+}
+header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    backdrop-filter: brightness(50%);
+}
+header > *{
+    color: rgb(207, 205, 205);
+    margin: 2%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: larger;
+}
+#icon{
+    background-image: url(../img/znailine.jpg);
+    background-size: cover;
+    padding: 2%;
+    margin: 0%;
+    margin-left: 2%;
+    position: relative;
+    top: 10pt;
+}
+main{
+    text-align: center;
+    margin-top: 10%;
+}
+/* sign */
+#contain{
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 20%;
+    border: #00364d 2px solid;
+    background: #aeaee8;
+    background: linear-gradient(30deg,rgba(174, 174, 232, 1) 0%, rgba(107, 147, 194, 1) 50%, rgba(163, 158, 184, 1) 100%);
+}
+#contain > *{
+    margin: 10%;
+    border-radius: 20px;
+    border:#00364d solid;
+}
+#contain > input{
+    margin-top: 10%;
+    margin: 4%;
+    width: 90%;
+    padding: 1%;
+}
+#forget{
+    display: block;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+#contain > h2{
+    margin-bottom: 15%;
+    margin-top: 15%;
+    border: none;
+}
+#contain > button{
+    padding: 5%;
+    background-color: unset;
+    backdrop-filter: brightness(90%);
+}
+#signIn{
+    margin-left: 0;
+}
+/* account */
+#imgContainIn{
+    display: inline-block;
+    margin-left: 15%;
+    width: 60%;
+}
+.imgInP{
+    width: 20%;
+    margin: 0;
+}
+img{
+    display: inline-block;
+    width: 20%;
+}
+nav{ 
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    vertical-align: top;
+    background-color: #328ab3;
+    
+}
+nav > div {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    border-right: #00364d 2px solid;
+    background: #4067c9;
+    background: linear-gradient(0deg,rgba(64, 103, 201, 1) 0%, rgba(40, 87, 173, 1) 100%);
+}
+#about{
+    display: inline-block;
+    padding-left: 5%;
+    margin: 0%;
+    width: 70%;
+    margin-bottom: 20%;
+}
+.bio{
+    display: block;
+    width: 100%;
+    height: min-content;
+}
+.bio > input, button{
+    padding: 1%;
+    border-radius: 20px;
+    border:#00364d solid;
+    display: inline-block;
+}
+#about > img{
+    border-radius: 20%;
+    border:#00364d solid;
+    background-color: white;
+}
+/* register */
+#imgContain{
+    margin-bottom: 0;
+}
+#imgContain > img{
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+    background-color: white;
+    padding: 0;
+}

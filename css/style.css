@@ -1,0 +1,253 @@
+body{
+    background: #00364d;
+    background: linear-gradient(30deg, rgba(0, 54, 77, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(43, 25, 115, 1) 100%);
+}
+header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    backdrop-filter: brightness(50%);
+}
+header > *{
+    color: rgb(207, 205, 205);
+    margin: 2%;
+    display: inline-block;
+    text-decoration: none;
+    font-size: larger;
+}
+#icon{
+    background-image: url(../img/znailine.jpg);
+    background-size: cover;
+    padding: 2%;
+    margin: 0%;
+    margin-left: 2%;
+    position: relative;
+    top: 10pt;
+}
+.aboutNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: rgb(255, 196, 0);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:500%;
+}
+.plusNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 10%;
+    width: 10%;
+    position: relative;
+    top: 50px;
+    background-color: rgb(49, 112, 54);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:300%;
+}
+.teachersNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 10%;
+    position: relative;
+    background-color: rgb(195, 29, 29);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:200%;
+}
+.studentNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    margin-left: 21.5%;
+    position: relative;
+    background-color: rgb(124, 247, 108);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:210%;
+}
+.contractNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    margin-left: 0.5%;
+    position: relative;
+    top: -20px;
+    background-color: rgb(99, 208, 255);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:210%;
+}
+.partnerNav{
+    display: inline-block;
+    padding: 3%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    margin-left: 0.5%;
+    position: relative;
+    top: 10px;
+    background-color: rgb(254, 154, 239);
+    border: black solid 3px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:300%;
+}
+.aboutArt{
+    border: 2px solid rgb(36, 43, 94);
+    background: #0c8fc7;
+    background: linear-gradient(30deg,rgba(12, 143, 199, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(104, 72, 232, 1) 100%);
+    margin: 1%;
+}
+.aboutArt >img{
+    border-radius: 20%;
+    border: solid rgb(99, 99, 99) 1px;
+    background-size: cover;
+    width: 20%;
+    display: inline-block;
+    margin: 2%;
+
+}
+.aboutArt > p{
+    display: inline-block;
+    margin: 2%;
+    font-size: 100%;
+    width: 70%;
+    vertical-align: top;
+}
+.swiper{
+      width: 70%;
+    }
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    backdrop-filter: brightness(90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    width: 80%;
+    object-fit: cover;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 10px !important; 
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 10px !important; 
+    right: auto;
+}
+.teacher{
+    background: #299dcf;
+    background: linear-gradient(30deg,rgba(41, 157, 207, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(43, 25, 115, 1) 100%);
+    border-radius: 10%;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+#teachers{
+    padding: 5% 10%;
+}
+.teacher > img{
+    width: 90%;
+    border-radius: 10%;
+}
+.teacher > * {
+    margin: 5%;
+}
+.teacher > h3{
+    margin: 0% 5%;
+}
+.teacher > p{
+    margin-top: 2%;
+}
+#students{
+    margin: 5%;
+    margin-top: 0%;
+    
+    border: 2px solid rgb(71, 71, 71);
+    background: #439abf;
+    background: linear-gradient(30deg,rgba(67, 154, 191, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(75, 31, 255, 1) 100%);
+}
+#nameList{ 
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    vertical-align: top;
+    padding: 2%;
+}
+.nameBtn{
+    width: 100%;
+    background: #0c6b96;
+    background: linear-gradient(30deg,rgba(12, 107, 150, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(52, 30, 117, 1) 100%);
+}
+#description{
+    display: inline-block;
+    width: 70%;
+    padding: 2%;
+    border-left: 4px solid rgb(71, 71, 71);
+}
+#description > img{
+    display: inline-block;
+    width: 30%;
+    border-radius: 5%;
+}
+#partners{
+    margin: 5%;
+    margin-top: 0%;
+    border: 2px solid rgb(71, 71, 71);
+    background: #116c96;
+    background: linear-gradient(30deg,rgba(17, 108, 150, 1) 0%, rgba(87, 141, 199, 1) 50%, rgba(86, 55, 196, 1) 100%);
+    padding: 2%;
+    padding-bottom: 0%;
+}
+.partner{
+    border: 2px solid #0b3c51;
+    margin-bottom: 3%;
+    backdrop-filter: brightness(80%);
+}
+.partner > img{
+    width: 20%;
+    display: inline-block;
+    vertical-align: center;
+    margin: 2%;
+    border-radius: 10%;
+}
+.partner > p{
+    display: inline-block;
+    width: 70%;
+    font-size: 130%;
+    margin-top: 2%;
+    vertical-align:top;
+}
+#contractBtn{
+    background: #1f478b;
+    padding: 2%;
+    font-size: larger;
+}
+#contract{
+    display: inline-block;
+    margin-left: 35%;
+}
